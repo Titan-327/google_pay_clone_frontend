@@ -1,6 +1,6 @@
 # Frontend Payment Integration
 
-This repository contains the frontend code for a React-based web application, which integrates payment functionalities using **React**, **React Toastify**, **Axios**, and **useNavigate** for routing. This example can be adapted for various payment integrations.
+This repository contains the frontend code for a React-based web application, which integrates payment functionalities using **React**, **React Toastify**, **Tailwind**, **Axios**, and **useNavigate** for routing. This example can be adapted for various payment integrations.
 
 ## Features
 
@@ -15,4 +15,5 @@ This repository contains the frontend code for a React-based web application, wh
 - **React Toastify**: A React component to show toast notifications.
 - **Axios**: A promise-based HTTP client for the browser and Node.js.
 - **React Router**: For routing and navigation within the app.
+- **Tailwind CSS**: A utility-first CSS framework for fast UI development.
 
