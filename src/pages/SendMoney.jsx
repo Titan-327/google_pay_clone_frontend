@@ -56,13 +56,13 @@ const SendMoney = () => {
                                 Authorization: "Bearer " + localStorage.getItem("token")
                             }
                         })
-                        if(res.msg=="Insufficient balance"){
+                        if(res.data.msg=="Insufficient balance"){
                         toast.error("Insufficient balance")
                         }
-                        else if(res.msg=="Invalid account"){
+                        else if(res.data.msg=="Invalid account"){
                             toast.error("Invalid account")
                         }
-                        else if(res.msg=="Error"){
+                        else if(res.data.msg=="Error"){
                             toast.error("Internal server error")
                         }
                         else{
